@@ -1,0 +1,1 @@
+{"version":3,"sources":["breakpoints/md.scss"],"names":[],"mappings":"AACA,4BAEC,QACC,YAAkB,CADnB,mBAGE,iBAAkB,CAClB","file":"md.css","sourcesContent":["/*Medium devices (tablets, less than 992px)*/\n@media (max-width: 991.98px) { \n\n\t.navbar {\n\t\tpadding: 1rem 1rem;\n\t\t.container{\n\t\t\tposition: relative;\n\t\t}\n\t}\n }"]}

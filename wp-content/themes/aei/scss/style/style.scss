@@ -1,143 +1,23 @@
-.navbar {
-	padding:0rem;
-}
+/*
+Theme name: aei
+Author: Hilson
+*/
 
-.navbar-brand{
-	position: absolute;
-	top: 0px;
-}
+/*Mobile Nav*/
+@import "./mobile_menu/menu";
 
-.hero{
-	position: relative;
-	padding: 3.5rem 1rem;
-	&:after {
-		content:'';
-		position: absolute;
-		z-index: 1;
-		top: 95%;
-		left: 50%;
-		margin-left: -60px;
-		width: 0;
-		height: 0;
-		border-top: solid 40px #fff;
-		border-left: solid 60px transparent;
-		border-right: solid 60px transparent;
-	}
-}
+/*Break Points*/
+@import "./breakpoints/lg";
+@import "./breakpoints/md";
+@import "./breakpoints/sm";
+@import "./breakpoints/xs";
 
-.parallax{
-	background: url(images/parallax2.jpg) no-repeat center center fixed;
-	background: #343434;
-	display: table;
-	position: relative;
-	width: 100%;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+/*Main Styles*/
+@import "./site";
 
-	.slide {
-		position: relative;
-		width: 60%;
-		overflow: hidden;
-		margin: auto;
-		text-align: center;
-
-		.heading{
-			width: 90%;
-			margin: auto;
-		}
-	}
-}
+/*components*/
+@import "./sections";
+@import "./carousel";
+@import "./button";
 
 
-@media (max-width: 767.98px) { .parallax .slide{ width: 100%; } }
-
-@media (max-width: 767.98px) { .action-btn{ position: relative; top: -20px; } }
-
-
-.jumbotron{
-	margin-bottom: 0px; 
-}
-
-.btn-cta{
-	background-color: transparent;
-	border-radius: 2px;
-	color: #fff;
-	font-size: 1.2em;
-	transition: all, ease, 0.3s;
-	font-weight: 400;
-	outline: none;
-	border-color: #fff;
-	border-width: 2px;	
-	width: 180px;
-
-	span, i{
-		vertical-align: middle;
-	}
-
-	i{
-		position: relative;
-		right: calc(100% - 109%);
-	}
-
-	&:nth-child(1){
-		margin-right: 10px; 
-	}
-
-	&:hover, &:active, &:focus{
-		color: yellow;
-		text-decoration: none;
-		outline: none;
-		border-color: yellow;
-	}
-
-}
-
-html,
-body {
-  min-height: 100%;
-}
-
-footer{
-	flex-shrink: none;
-}
-
-main{
-	flex: 1 0 auto;
-}
-
-.carousel-fade .carousel-item {
-	opacity: 0;
-	transition-duration: .8s;
-}
-.carousel-control-next i {
-	right: -35%;
-	position: relative;
-}
-.carousel-control-prev i {
-	left: -35%;
-	position: relative;
-}
-
-.carousel-fade  .carousel-item.active,
-.carousel-fade  .carousel-item-next.carousel-item-left,
-.carousel-fade  .carousel-item-prev.carousel-item-right {
-	opacity: 1;
-	transition: opacity ease-in .8s;
-}
-
-.carousel-fade .active.carousel-item-left,
-.carousel-fade  .active.carousel-item-right {
-	opacity: 0;
-	transition: opacity ease-out .8s;
-}
-
-.carousel-fade  .carousel-item-next,
-.carousel-fade .carousel-item-prev,
-.carousel-fade .carousel-item.active,
-.carousel-fade .active.carousel-item-left,
-.carousel-fade  .active.carousel-item-prev {
-	transform: translateX(0);
-	transform: translate3d(0, 0, 0);
-}

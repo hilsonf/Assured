@@ -1,0 +1,29 @@
+
+body{
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+html,body {
+  min-height: 100%;
+}
+
+main{
+	flex: 1 0 auto;
+}
+
+footer{
+	flex-shrink: none;
+}
+
+.navbar-brand{
+	position: absolute;
+	top: 0px;
+	z-index: 1;
+}
+
+.jumbotron{
+	margin-bottom: 0px; 
+}
+
+

@@ -19,7 +19,8 @@ const files = {
     jsPath:   'wp-content/themes/aei/js/**/*.js',
     libPath:  [ 'node_modules/jquery/dist/jquery.min.js',
                  'node_modules/bootstrap/dist/js/bootstrap.min.js',
-                 'node_modules/aos/dist/aos.js'
+                 'node_modules/aos/dist/aos.js',
+                 'node_modules/body-scroll-lock/lib/bodyScrollLock.min.js'
                 ]
 }
 

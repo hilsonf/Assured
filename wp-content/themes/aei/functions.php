@@ -23,9 +23,14 @@ add_theme_support('menus');
 
 register_nav_menus(
 	array(
-		'top-menu' => __('Top Menu', 'aei'),
-		'top-menu' => __('Footer Menu', 'aei'),
+		'top-menu' => __('Top Menu', 'theme'),
+		'top-menu' => __('Footer Menu', 'theme'),
 	)
 );
 
+function nav_class( $classes, $item ){
+ $classes[] = "nav__list-item";
+ return $classes;
+}
+add_filter('nav_menu_css_class' , 'nav_class' , 10 , 2);
 ?>
