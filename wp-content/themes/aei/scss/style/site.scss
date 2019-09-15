@@ -6,6 +6,7 @@ body{
 
 html,body {
   min-height: 100%;
+  font-family: Poppins, sans-serif;
 }
 
 main{
@@ -16,10 +17,23 @@ footer{
 	flex-shrink: none;
 }
 
-.navbar-brand{
-	position: absolute;
-	top: 0px;
-	z-index: 1;
+.jumbotron_top{
+	background: url(../images/hero_bg1.webp) center center / cover no-repeat;
+
+	.jumbotron_outer{		
+		margin: auto;
+
+		&:nth-child(1){
+			.jumbotron_inner{ width: 150px; margin: auto; }
+		}
+		&:nth-child(2){
+			.jumbotron_inner{ width: calc(150px + 82px); margin: auto;}
+		}
+		&:nth-child(3){
+			.jumbotron_inner{ width: calc(150px + -30px); margin: auto;}
+		}
+
+	}
 }
 
 .jumbotron{
@@ -27,3 +41,19 @@ footer{
 }
 
 
+.navbar{
+	.container{
+		position: relative;
+	}
+	.navbar-brand{
+		width: 150px;
+		position: absolute;
+		top: 10px;
+		z-index: 1;
+		left: 1rem;
+	}
+	a{
+		color: #fff;
+		font-size: 14px;
+	}
+}

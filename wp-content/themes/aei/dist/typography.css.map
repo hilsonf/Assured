@@ -1,0 +1,1 @@
+{"version":3,"sources":["typography.scss"],"names":[],"mappings":"AACA,WACC,8BAAkC,CAC/B,qEAAsE","file":"typography.css","sourcesContent":["\n@font-face {\n\tfont-family: 'Poppins', sans-serif;\n    src: url(https://fonts.googleapis.com/css?family=Poppins&display=swap)\n}\n"]}

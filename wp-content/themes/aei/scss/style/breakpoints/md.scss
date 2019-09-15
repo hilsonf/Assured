@@ -2,9 +2,11 @@
 @media (max-width: 991.98px) { 
 
 	.navbar {
-		padding: 1rem 1rem;
-		.container{
-			position: relative;
+		padding: 1.2rem 1rem;
+		.navbar-brand{
+			width: 115px;
+			top: -10px;
 		}
 	}
+	.menu-icon{top: 10px;}
  }

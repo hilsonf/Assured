@@ -1,31 +1,43 @@
 <?php  /* Template Name: Home */ ?>
 
-<?php get_header(); ?>
+
+
+<?php get_template_part('./partials/header'); ?>
 
 <main>
-	<div class="jumbotron jumbotron-fluid">
+	<div class="jumbotron jumbotron-fluid jumbotron_top pb-1">
 		<div class="container">
-			<div class="row">
+			<div class="row mb-5">
 				<div class="col lg-12 md-12 sm-12 text-center">
-					<h1 class="display-4">Fluid jumbotron</h1>
-					<p class="lead text-center">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+					<h1 class="display-4 text-white">Cyber Risk Management</h1>
+					<p class="lead text-center text-white">Protecting Your Data & Your Reputation</p>
 				</div>
 			</div>
-			<div class="row my-5">
-				<div class="col-lg-4 col-md-4 col-sm-12 text-center my-2" data-aos="fade-in" data-aos-delay="2000" data-aos-easing="ease-in">
-					<img src="//placehold.it/1200x600/444" class="img-fluid" alt="img">
+			<div class="row mt-5 align-items-end">
+				<div class="col-lg-4 col-md-4 col-sm-12 text-center jumbotron_outer" data-aos="fade-in" data-aos-delay="2000" data-aos-easing="ease-in">
+									
+					<p class="text-white">Cyber Risk Assessments</p>
+					<div class="jumbotron_inner">
+						<img src="/wp-content/themes/aei/images/web-assessment-desktop.webp" class="img-fluid" alt="web-assessment-desktop">
+					</div>
 				</div> 
-				<div class="col lg-4 col-md-4 col-sm-12 text-center my-2" data-aos="fade-in" data-aos-delay="2500" data-aos-easing="ease-in">
-					<img src="//placehold.it/1200x600/444" class="img-fluid" alt="img">
+				<div class="col lg-4 col-md-4 col-sm-12 text-center jumbotron_outer" data-aos="fade-in" data-aos-delay="2500" data-aos-easing="ease-in">
+					<p class="text-white">Cyber Risk Beacon</p>
+					<div class="jumbotron_inner">
+						<img src="/wp-content/themes/aei/images/web-assessment-gauge.webp" class="img-fluid" alt="web-assessment-gauge">
+					</div>
 				</div> 
-				<div class="col-lg-4 col-md-4 col-sm-12 text-center my-2" data-aos="fade-in" data-aos-delay="3000" data-aos-easing="ease-in">
-					<img src="//placehold.it/1200x600/444" class="img-fluid" alt="img">
+				<div class="col-lg-4 col-md-4 col-sm-12 text-center jumbotron_outer" data-aos="fade-in" data-aos-delay="3000" data-aos-easing="ease-in">
+					<p class="text-white">Cyber Maturity Road Map</p>
+					<div class="jumbotron_inner">
+						<img src="/wp-content/themes/aei/images/web-assessment-road-map.webp" class="img-fluid" alt="web-assessment-road-map">
+					</div>
 				</div> 
 			</div>
 		</div>
 	</div>
 
-	<div class="hero">
+	<div class="hero text-center">
 		<div class="container" data-aos="fade-in" data-aos-delay="3000" data-aos-easing="ease-in">
 			<h2> The Assure Difference:</h2>
 			<p>A Program Shift in Cyber Security & Cyber Risk Management</p>
@@ -221,4 +233,4 @@
 	</div>
 </main>
 
-<?php get_footer(); ?>
+<?php get_template_part('./partials/footer'); ?>

@@ -15,7 +15,7 @@ $transition--length: .8;
 	cursor: pointer;
 	position: absolute;
     z-index: 1022;
-    right: 0; 
+    right: 1rem; 
 	&__line{
 		height: 2px;
 		width: $size;
@@ -58,24 +58,30 @@ $transition--length: .8;
 	&:before{
 		transition-delay: .1s;
 	}
+	&__list{
+		width: 90%;
+		margin: auto;
+		text-align: left;
+	}
 	&__content{
 		position: fixed;
 		top:50%;
 		transform: translate(0%,-50%);
 		width: 100%;
-    	text-align: center;
 		font-size: $font--size--calc;
 		font-weight: 200;
 		cursor: pointer;
+		visibility: hidden;
 	}
 	&__list-item{
 		position: relative;
-		display: inline-block;
+		margin: 10px auto;
+		width: 200px;
 		transition-delay: $transition--length + s;
 		opacity: 0;
 		transform: translate(0%, 100%);
 		transition: opacity .2s ease, transform .3s ease;
-		margin-right: 25px;
+
 		&:before{
 			content: "";
 			position: absolute;
@@ -89,7 +95,7 @@ $transition--length: .8;
 		}
 		&:hover{
 			&:before{
-				width: 100%;
+				width: 60%;
 			}
 		}
 	}
@@ -124,6 +130,9 @@ body.nav-active{
 		}
 		&:before{
 			transition-delay: 0s;
+		}
+		&__content{
+			visibility: visible;
 		}
 		&__list-item{
 			opacity: 1;

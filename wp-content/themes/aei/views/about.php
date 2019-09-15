@@ -1,6 +1,7 @@
 <?php  /* Template Name: About */ ?>
 
-<?php get_header(); ?>
+<?php get_template_part('./partials/header'); ?>
+
 <main class="fluid-container">
 	<div class="jumbotron jumbotron-fluid">
 		<div class="container">
@@ -9,4 +10,4 @@
 	</div>
 </main>
 
-<?php get_footer(); ?>
+<?php get_template_part('./partials/footer'); ?>

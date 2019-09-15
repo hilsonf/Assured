@@ -6,18 +6,22 @@ Author: Hilson
 /*Mobile Nav*/
 @import "./mobile_menu/menu";
 
-/*Break Points*/
-@import "./breakpoints/lg";
-@import "./breakpoints/md";
-@import "./breakpoints/sm";
-@import "./breakpoints/xs";
+/*Colors*/
+@import "./colors";
 
-/*Main Styles*/
-@import "./site";
+/*Fonts*/
+@import "./typography";
 
 /*components*/
 @import "./sections";
 @import "./carousel";
 @import "./button";
 
+/*Main Styles*/
+@import "./site";
 
+/*Break Points*/
+@import "./breakpoints/lg";
+@import "./breakpoints/md";
+@import "./breakpoints/sm";
+@import "./breakpoints/xs";

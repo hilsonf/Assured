@@ -5,9 +5,10 @@
 		wp_nav_menu(
 
 			array(
-				'menu' => 'top-menu', 
+				'menu' => 'mobile-top-menu', 
 				'container'=> 'ul', 
-				'menu_class' => 'nav__list'
+				'menu_class' => 'nav__list list-unstyled',
+				'add_li_class'  => 'nav__list-item'
 			)
 
 		) 

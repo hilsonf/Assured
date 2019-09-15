@@ -24,13 +24,25 @@ add_theme_support('menus');
 register_nav_menus(
 	array(
 		'top-menu' => __('Top Menu', 'theme'),
-		'top-menu' => __('Footer Menu', 'theme'),
+		'top-center-menu' => __('Top Center Menu', 'theme'),
+		'footer-menu' => __('Footer Menu', 'theme'),
 	)
 );
 
-function nav_class( $classes, $item ){
- $classes[] = "nav__list-item";
- return $classes;
+function nav_class($classes, $item, $args){
+	if($args->add_li_class) {
+        $classes[] = $args->add_li_class;
+    }
+    return $classes;
 }
-add_filter('nav_menu_css_class' , 'nav_class' , 10 , 2);
+add_filter('nav_menu_css_class' , 'nav_class' , 10 , 3);
+
+function nav_anchor_class($classes, $item, $args){
+	if($args->add_a_class) {
+        $classes[] = $args->add_a_class;
+    }
+    return $classes;
+}
+add_filter('nav_menu_css_class' , 'nav_anchor_class' , 10 , 3);
+
 ?>
