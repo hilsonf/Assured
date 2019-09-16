@@ -1,0 +1,48 @@
+
+
+@mixin button-cta($fz: 14px, $cl: #fff){
+	background-color: transparent;
+	border-radius: 2px;
+	color: #fff;
+	font-size: $fz;
+	transition: all, ease, 0.3s;
+	font-weight: 400;
+	outline: none;
+	border-color: #fff;
+	border-width: 1px;	
+	width: 180px;
+
+	span{
+		float: left;
+	}
+	i{
+		float: right;
+		color: $cl;
+	}
+
+	&:nth-child(1){
+		margin-right: 10px; 
+	}
+
+	&:hover, &:active, &:focus{
+		color: $cl;
+		text-decoration: none;
+		outline: none;
+		border-color: $cl;
+	}
+}
+
+
+@mixin hero-color($bg: #fff){
+	content:'';
+	position: absolute;
+	z-index: 1;
+	top: 89%;
+	left: 50%;
+	margin-left: -60px;
+	width: 0;
+	height: 0;
+	border-top: solid 40px $bg;
+	border-left: solid 80px transparent;
+	border-right: solid 80px transparent;
+}

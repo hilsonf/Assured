@@ -6,7 +6,8 @@ body{
 
 html,body {
   min-height: 100%;
-  font-family: Poppins, sans-serif;
+
+  font-family: poppins-extralight,poppins,sans-serif;
 }
 
 main{
@@ -17,8 +18,14 @@ footer{
 	flex-shrink: none;
 }
 
+.auto{
+	margin: auto;
+}
+
 .jumbotron_top{
 	background: url(../images/hero_bg1.webp) center center / cover no-repeat;
+
+	h2{ font-weight: lighter; }
 
 	.jumbotron_outer{		
 		margin: auto;
@@ -34,10 +41,6 @@ footer{
 		}
 
 	}
-}
-
-.jumbotron{
-	margin-bottom: 0px; 
 }
 
 

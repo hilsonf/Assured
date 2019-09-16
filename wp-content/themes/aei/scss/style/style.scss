@@ -4,21 +4,21 @@ Author: Hilson
 */
 
 /*Mobile Nav*/
-@import "./mobile_menu/menu";
-
-/*Colors*/
-@import "./colors";
+@import "./components/menu";
 
 /*Fonts*/
-@import "./typography";
+@import "./components/typography";
+
+/*Helpers*/
+@import "./components/helpers";
 
 /*components*/
-@import "./sections";
-@import "./carousel";
-@import "./button";
+@import "./components/carousel";
+@import "./components/button";
+@import "./components/sections";
 
 /*Main Styles*/
-@import "./site";
+@import "./components/site";
 
 /*Break Points*/
 @import "./breakpoints/lg";

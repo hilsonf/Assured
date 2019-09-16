@@ -14,7 +14,7 @@
 	<nav class="sticky-top">
 		<div class="navbar navbar-expand-lg navbar-dark bg_dark_dark">
 			<div class="container">
-			<a href="#" class="navbar-brand"><img src="/wp-content/themes/aei/images/logo.webp" alt="logo" class="img-fluid"></a>
+			<a href="/" class="navbar-brand"><img src="/wp-content/themes/aei/images/logo.webp" alt="logo" class="img-fluid"></a>
 
 			<div class="d-lg-none ml-auto">
 				<div class="menu-icon">

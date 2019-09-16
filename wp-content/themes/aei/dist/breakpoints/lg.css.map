@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"lg.css","sourcesContent":[]}
+{"version":3,"sources":["breakpoints/lg.scss"],"names":[],"mappings":"AACA,6BAEC,uBAEE,SAAU,CACV","file":"lg.css","sourcesContent":["/*Large devices (desktops, less than 1200px)*/\n@media (max-width: 1199.98px) { \n\n\t.parallax {\n\t\t.slide .info{\n\t\t\twidth: 85%;\n\t\t}\n\t}\n}"]}

@@ -5,12 +5,12 @@
 <?php get_template_part('./partials/header'); ?>
 
 <main>
-	<div class="jumbotron jumbotron-fluid jumbotron_top pb-1">
+	<div class="jumbotron jumbotron-fluid jumbotron_top pb-1 mb-0">
 		<div class="container">
 			<div class="row mb-5">
 				<div class="col lg-12 md-12 sm-12 text-center">
 					<h1 class="display-4 text-white">Cyber Risk Management</h1>
-					<p class="lead text-center text-white">Protecting Your Data & Your Reputation</p>
+					<h2 class="text-center text-white my-5">Protecting Your Data & Your Reputation</h2>
 				</div>
 			</div>
 			<div class="row mt-5 align-items-end">
@@ -37,8 +37,8 @@
 		</div>
 	</div>
 
-	<div class="hero text-center">
-		<div class="container" data-aos="fade-in" data-aos-delay="3000" data-aos-easing="ease-in">
+	<div class="hero bg_white">
+		<div class="container text-center" data-aos="fade-in" data-aos-delay="3000" data-aos-easing="ease-in">
 			<h2> The Assure Difference:</h2>
 			<p>A Program Shift in Cyber Security & Cyber Risk Management</p>
 		</div>
@@ -47,7 +47,7 @@
 	<div class="fluid_container">
 		<div class="parallax h-100">
 
-			<div class="d-none d-sm-block">
+			<div class="d-none d-md-block">
 				<a class="carousel-control-prev" href="#demo1" data-slide="prev">
 					<i class="material-icons">arrow_back</i>
 				</a>
@@ -63,11 +63,13 @@
 					
 					<div class="carousel-item active">
 						<div class="my-5">
-							<img class="img-fluid" src="//placehold.it/1200x600/444" alt="2">
+							<div class="img-container auto">
+								<img class="img-fluid" src="/wp-content/themes/aei/images/deep-binary-scan.webp" alt="deep-binary-scan">
+							</div>
 						</div>
-						<div class="heading">
-							<h3>Actionable Cyber Scores 1</h3>
-							<p>Most cyber risks are only a function of the size of you company. Our <em>cyber scores are paired with customized road maps</em> to help you boster your cyber risk posture and increase your score cost-effictively</p>
+						<h5 class="text-white font-weight-bold">DEEP SOFTWARE SCANNING</h3>
+						<div class="info">
+							<p class="text-white font-weight-light">There are a-million-and-one network scanners on the market. None of which uncover vulnerabilities living in your software. <em class="text-yellow">We scan your programs at a binary level </em> to expose hidden bugs in your software, without ever needing to see your sensitive data.</p>
 						</div>
 						<div class="my-5 action-btn">
 							<button type="button" class="btn btn-cta"><span>Buy Now</span> <i class="material-icons">shopping_cart</i>
@@ -78,11 +80,13 @@
 					</div>
 					<div class="carousel-item">
 						<div class="my-5">
-							<img class="img-fluid" src="//placehold.it/1200x600/ccff00" alt="2">
+							<div class="img-container auto">
+								<img class="img-fluid" src="/wp-content/themes/aei/images/personalized-assessment.webp" alt="personalized-assessment">
+								</div>	
 						</div>
-						<div class="heading">
-							<h3>Actionable Cyber Scores 2</h3>
-							<p>Most cyber risks are only a function of the size of you company. Our <em>cyber scores are paired with customized road maps</em> to help you boster your cyber risk posture and increase your score cost-effictively</p>
+						<h5 class="text-white font-weight-bold">PERSONALIZED RISK ASSESSMENTS</h3>
+						<div class="info">
+							<p class="text-white font-weight-light">We don't check off boxes based on general industry data. Our risk <em class="text-light-blue">assessments are specific to your organization </em>, from data infrastrucure size and marketplace, to threat type and severity.</p>
 						</div>
 						<div class="my-5 action-btn">
 							<button type="button" class="btn btn-cta">Buy Now <i class="material-icons">shopping_cart</i>
@@ -93,11 +97,13 @@
 					</div>
 					<div class="carousel-item">
 						<div class="my-5">
-							<img class="img-fluid" src="//placehold.it/1200x600/444" alt="">
+							<div class="img-container auto">
+								<img class="img-fluid" src="/wp-content/themes/aei/images/score-and-steps.webp" alt="score-and-steps">
+							</div>
 						</div>
-						<div class="heading">
-							<h3>Actionable Cyber Scores 3</h3>
-							<p>Most cyber risks are only a function of the size of you company. Our <em>cyber scores are paired with customized road maps</em> to help you boster your cyber risk posture and increase your score cost-effictively</p>
+						<h5 class="text-white font-weight-bold">ACTIONABLE CYBER SCORES</h3>
+						<div class="info">
+							<p class="text-white font-weight-light">Why trust a cyber risk estimate that is only based on the size of your company?  Our cyber scores are unique to you and paired with <em class="text-lime-green">customized road maps</em> to help you bolster your cyber risk posture and cost-effectively increase your score.</p>
 						</div>
 						<div class="my-5 action-btn">
 							<button type="button" class="btn btn-cta">Buy Now <i class="material-icons">shopping_cart</i>
@@ -120,34 +126,59 @@
 		</div>
 	</div>
 
-	<div class="hero">
-		<div class="container">
-			<p>Challenges & Solutions</p>
+	<div class="hero bg_grey">
+		<div class="container text-center">
+			<p class="mb-1">Challenges & Solutions</p>
 			<h2>Cyber Risk Management</h2>
 		</div>
 	</div>
 
-	<div class="jumbotron jumbotron-fluid">
+	<div class="jumbotron jumbotron-fluid mb-0 bg-white">
 		<div class="container">
 			
-			<div class="carousel slide" data-ride="carousel">
+			<div class="carousel slide solutions" data-ride="carousel">
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<div class="row">
-							<div class="col-sm"><img class="img-fluid my-2" src="//placehold.it/1200x600/444" alt="1 slide"></div>
-							<div class="col-sm"><img class="img-fluid my-2" src="//placehold.it/1200x600/ccff00" alt="2 slide"></div>
-							<div class="col-sm"><img class="img-fluid my-2" src="//placehold.it/1200x600/ccff00" alt="2 slide"></div>
-							<div class="col-sm"><img class="img-fluid my-2" src="//placehold.it/1200x600/444" alt="1 slide"></div>
+						<div class="row align-items-end w-75 auto">
+							<div class="col-sm p-0">
+									<a href="">
+									<img src="/wp-content/themes/aei/images/slider_1_plain.webp" class="img-fluid img-plain" alt="" >
+									<img src="/wp-content/themes/aei/images/slider_1_colored.webp" class="img-color img-fluid" alt="">
+									</a>
+								<p class="font-weight-light text-center mt-2">IT Security Budget</p>
+							</div>
+							<div class="col-sm p-0">
+									<a href="">
+									<img src="/wp-content/themes/aei/images/slider_2_plain.webp" class="img-fluid img-plain" alt="" >
+									<img src="/wp-content/themes/aei/images/slider_2_colored.webp" class="img-color img-fluid" alt="">
+									</a>									
+								<p class="font-weight-light text-center mt-2">Hidden Vulnerabilities</p>	
+							</div>
+							<div class="col-sm p-0">
+									<a href="">
+									<img src="/wp-content/themes/aei/images/slider_3_plain.webp" class="img-fluid img-plain" alt="" >
+									<img src="/wp-content/themes/aei/images/slider_3_colored.webp" class="img-color img-fluid" alt="">
+									</a>
+								<p class="font-weight-light text-center mt-2">Compliance</p>
+							</div>
+							<div class="col-sm p-0">
+									<a href="" class="text-center">
+									<img src="/wp-content/themes/aei/images/slider_4_plain.webp" class="img-fluid img-plain" alt="" >
+									<img src="/wp-content/themes/aei/images/slider_4_colored.webp" class="img-color img-fluid" alt="">
+									</a>											
+								<p class="font-weight-light text-center mt-2">Risk Visibility</p>
+							</div>
+
+							<div class="col-sm p-0">
+									<a href="" class="text-center">
+									<img src="/wp-content/themes/aei/images/slider_5_plain.webp" class="img-fluid img-plain" alt="" >
+									<img src="/wp-content/themes/aei/images/slider_5_colored.webp" class="img-color img-fluid" alt="" style="top: -3px">
+									</a>
+									<p class="font-weight-light text-center mt-2">Cyber Threats</p>
+							</div>
 						</div>
 					</div>
-					<div class="carousel-item">
-						<div class="row">
-							<div class="col-sm"><img class="img-fluid my-2" src="//placehold.it/1200x600/ccff00" alt="4 slide"></div>
-							<div class="col-sm"><img class="img-fluid my-2" src="//placehold.it/1200x600/444" alt="5 slide"></div>
-							<div class="col-sm"><img class="img-fluid my-2" src="//placehold.it/1200x600/ddd" alt="6 slide"></div>
-							<div class="col-sm"><img class="img-fluid my-2" src="//placehold.it/1200x600" alt="3 slide"></div>
-						</div>
-					</div>
+
 				</div>
 			</div>
 
