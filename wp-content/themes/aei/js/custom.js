@@ -1,6 +1,7 @@
 // AOS Scroll Animation
 AOS.init({
-  once: true
+  once: true,
+  disable: 'mobile'
 });
 
 // NAV

@@ -1,11 +1,17 @@
 @import "./colors";
 
-.bg_dark_dark{
+.bg_dark{
 	background-color: $color-nav_dark_dark;
+}
+.bg_dark_dark{
+	background-color: $color-dark;
 }
 .bg_shade_dark{
 	background-color: $color-nav_shade_dark;
 }
 .bg_grey{
 	background-color: $color-grey;
+}
+.bg_sea_blue{
+	background-color: $color-sea-blue;
 }

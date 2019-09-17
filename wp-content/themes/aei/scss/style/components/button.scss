@@ -31,17 +31,48 @@
 	}
 }
 
+@mixin button-cta-secondary($fz: 14px, $cl: #414141){
+	background-color: transparent;
+	border-radius: 2px;
+	color: $cl;
+	font-size: $fz;
+	transition: all, ease, 0.3s;
+	font-weight: lighter;
+	outline: none;
+	border-color: $cl;
+	border-width: 1px;
+	&:hover, &:active, &:focus{
+		color: #fff;
+		text-decoration: none;
+		outline: none;
+		border-color: transparent;
+		background-color: #83AABB;
+	}
+}
 
-@mixin hero-color($bg: #fff){
-	content:'';
-	position: absolute;
-	z-index: 1;
-	top: 89%;
-	left: 50%;
-	margin-left: -80px;
-	width: 0;
-	height: 0;
-	border-top: solid 40px $bg;
-	border-left: solid 80px transparent;
-	border-right: solid 80px transparent;
+@mixin hero($bg: #fff){
+
+	position: relative;
+	padding: 3.5rem 1rem;
+	background-color: $bg;
+	
+	h2{
+		font-size: 1.2rem;
+		font-weight: bold;
+	}
+
+	&:after {
+		content:'';
+		position: absolute;
+		z-index: 1;
+		top: 85%;
+		left: 50%;
+		margin-left: -80px;
+		width: 0;
+		height: 0;
+		border-top: solid 40px $bg;
+		border-left: solid 80px transparent;
+		border-right: solid 80px transparent;
+	}
+
 }

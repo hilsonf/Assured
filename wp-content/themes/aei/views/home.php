@@ -37,7 +37,7 @@
 		</div>
 	</div>
 
-	<div class="hero bg_white">
+	<div class="hero-white">
 		<div class="container text-center" data-aos="fade-in" data-aos-delay="3000" data-aos-easing="ease-in">
 			<h2> The Assure Difference:</h2>
 			<p>A Program Shift in Cyber Security & Cyber Risk Management</p>
@@ -111,16 +111,16 @@
 	</div>
 
 
-	<div class="hero bg_grey">
+	<div class="hero-grey">
 		<div class="container text-center">
 			<p class="mb-1">Challenges & Solutions</p>
 			<h2>Cyber Risk Management</h2>
 		</div>
 	</div>
 
-	<!-- <div class="container-fluid"> -->
-		<div id="custom_carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
-			<div class="d-none d-lg-block">
+
+	<div id="custom_carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+		<div class="d-none d-lg-block">
 			<div class="controls d-flex justify-content-center p-3 ">
 				<ul class="nav align-items-end">
 					<li data-target="#custom_carousel" data-slide-to="0" class="active">
@@ -138,7 +138,7 @@
 								<img src="/wp-content/themes/aei/images/slider_2_plain.webp" class="img-fluid img-plain" alt="challenges and solutions" >
 								<img src="/wp-content/themes/aei/images/slider_2_colored.webp" class="img-color img-fluid" alt="challenges and solutions">
 							</a>						
-							</div>			
+						</div>			
 						<p class="font-weight-light text-center mt-2">Hidden Vulnerabilities</p>
 					</li>
 					<li data-target="#custom_carousel" data-slide-to="2">
@@ -170,113 +170,140 @@
 					</li>
 				</ul>
 			</div>
-			</div>
+		</div>
 
-			<div class="pannel bg_dark_dark h-100 py-5">
-				
-				<div class="container">
-					<!-- The slideshow -->
-					<div class="carousel-inner">
+		<div class="pannel bg_dark_dark h-100 py-5">
 
-						<div class="carousel-item active">
+			<div class="container">
+				<!-- The slideshow -->
+				<div class="carousel-inner">
 
-							<div class="row align-items-center">
-								<div class="col-lg-6">
-									<div class="img-container">
-										<img src="/wp-content/themes/aei/images/challenges_and_solutions_1.webp" class="img-fluid" alt="challenges and solutions" >
-									</div>
-								</div>
-								<div class="col-lg-6 text-sm-center">
-									<h6 class="font-weight-bold text-white">IT Resource Planning</h6>
-									<p class="font-weight-light text-white">There is an ongoing struggle for resources between Development, DevOps, Marketing, and InfoSec. Unfortunately, security is often seen as non-revenue generating and loses priority battles.</p>
-									<p class="font-weight-light text-white">Our platform provides you with data about your risk posture and a detailed plan on how to most efficiently target significant portions of your cyber risk. Be the hero your company needs with our<em class="text-lime-green font-weight-bold"> Cyber Security Roadmap.</em></p>	
-									<button type="button" class="btn btn-cta"><span>Learn More</span> <i class="material-icons">arrow_forward</i>
-									</button>			
+					<div class="carousel-item active">
+
+						<div class="row align-items-center">
+							<div class="col-lg-6">
+								<div class="img-container">
+									<img src="/wp-content/themes/aei/images/challenges_and_solutions_1.webp" class="img-fluid" alt="challenges and solutions" >
 								</div>
 							</div>
+							<div class="col-lg-6 text-sm-center">
+								<h6 class="font-weight-bold text-white">IT Resource Planning</h6>
+								<p class="font-weight-light text-white">There is an ongoing struggle for resources between Development, DevOps, Marketing, and InfoSec. Unfortunately, security is often seen as non-revenue generating and loses priority battles.</p>
+								<p class="font-weight-light text-white">Our platform provides you with data about your risk posture and a detailed plan on how to most efficiently target significant portions of your cyber risk. Be the hero your company needs with our<em class="text-lime-green font-weight-bold"> Cyber Security Roadmap.</em></p>	
+								<button type="button" class="btn btn-cta"><span>Learn More</span> <i class="material-icons">arrow_forward</i>
+								</button>			
+							</div>
+						</div>
 
-						</div>
-						<div class="carousel-item">
-							<div class="row align-items-center">
-								<div class="col-lg-6">
-									<div class="img-container">
-										<img src="/wp-content/themes/aei/images/challenges_and_solutions_2.webp" class="img-fluid" alt="challenges and solutions" >
-									</div>
-								</div>
-								<div class="col-lg-6 text-sm-center">
-									<h6 class="font-weight-bold text-white">Uncovering Vulnerabilities</h6>
-									<p class="font-weight-light text-white">Your firewall is up, your network is scanned every 2 AM, you even have threat hunters working to keep you safe. All of a sudden, your files are locked and you don't know why.</p>
-									<p class="font-weight-light text-white">Odds are, someone exploited a vulnerability in an innocuous-looking computer program or application. You're not alone. 80% of attacks slip right by the network scan. Pick up where network scanners drop of with<em class="text-dark-green font-weight-bold"> Assured Scan DKV.</em></p>	
-									<button type="button" class="btn btn-cta"><span>Learn More</span> <i class="material-icons">arrow_forward</i>
-									</button>			
+					</div>
+					<div class="carousel-item">
+						<div class="row align-items-center">
+							<div class="col-lg-6">
+								<div class="img-container">
+									<img src="/wp-content/themes/aei/images/challenges_and_solutions_2.webp" class="img-fluid" alt="challenges and solutions" >
 								</div>
 							</div>
-						</div>
-						<div class="carousel-item">
-							<div class="row align-items-center">
-								<div class="col-lg-6">
-									<div class="img-container">
-										<img src="/wp-content/themes/aei/images/challenges_and_solutions_3.webp" class="img-fluid" alt="challenges and solutions" >
-									</div>
-								</div>
-								<div class="col-lg-6 text-sm-center">
-									<h6 class="font-weight-bold text-white">Regulatory Compliance Reporting</h6>
-									<p class="font-weight-light text-white">Complying with diverse and expanding regulatory requirements in an efficient, cost-effective way is not easy. Whether it’s HIPAA (PHI), GDPR (EU citizens personal data), PCI (cardholder data), or NERC-CIP (operational and systems data), regulatory requirements are focused on protecting data.</p>
-									<p class="font-weight-light text-white">We have developed a cost-effective way to file virtually any regulatory compliance cyber report with our personalized<em class="text-light-blue font-weight-bold"> Regulatory Compliance Dossier.</em></p>	
-									<button type="button" class="btn btn-cta"><span>Learn More</span> <i class="material-icons">arrow_forward</i>
-									</button>			
-								</div>
-							</div>
-						</div>
-						<div class="carousel-item">
-							<div class="row align-items-center">
-								<div class="col-lg-6">
-									<div class="img-container">
-										<img src="/wp-content/themes/aei/images/challenges_and_solutions_4.webp" class="img-fluid" alt="challenges and solutions" >
-									</div>
-								</div>
-								<div class="col-lg-6 text-sm-center">
-									<h6 class="font-weight-bold text-white">Risk Visibility</h6>
-									<p class="font-weight-light text-white">One of the biggest challenges you can face is being concerned about your cybersecurity and not having a real picture of your cyber risk. This can lead to overspending, losing the fight for a cybersecurity budget, or worse, having misplaced efforts and still having a data breach.</p>
-									<p class="font-weight-light text-white">We developed the industries first truly comprehensive risk assessment vehicle. When you need to know your cyber risk exposure and what to do about it, you need<em class="text-red font-weight-bold"> TripleHelix.</em></p>	
-									<button type="button" class="btn btn-cta"><span>Learn More</span> <i class="material-icons">arrow_forward</i>
-									</button>			
-								</div>
-							</div>
-						</div>
-						<div class="carousel-item">
-							<div class="row align-items-center">
-								<div class="col-lg-6">
-									<div class="img-container">
-										<img src="/wp-content/themes/aei/images/challenges_and_solutions_5.webp" class="img-fluid" alt="challenges and solutions" >
-									</div>
-								</div>
-								<div class="col-lg-6 text-sm-center">
-									<h6 class="font-weight-bold text-white">Virtual CISO & Cyber Education</h6>
-									<p class="font-weight-light text-white">Not every organization can support bringing on a Chief information security officer. Often the role of cybersecurity management falls to the CTO or DevOps team who desperately needs to be focused on making sure your business stays competitive. This is what hackers are counting on.</p>
-									<p class="font-weight-light text-white">To ease the burden on your IT department. Assured Enterprises can help train every employee in your company to become more threat aware and can operate as your<em class="text-purple font-weight-bold"> Virtual CISO.</em></p>	
-									<button type="button" class="btn btn-cta"><span>Learn More</span> <i class="material-icons">arrow_forward</i>
-									</button>			
-								</div>
+							<div class="col-lg-6 text-sm-center">
+								<h6 class="font-weight-bold text-white">Uncovering Vulnerabilities</h6>
+								<p class="font-weight-light text-white">Your firewall is up, your network is scanned every 2 AM, you even have threat hunters working to keep you safe. All of a sudden, your files are locked and you don't know why.</p>
+								<p class="font-weight-light text-white">Odds are, someone exploited a vulnerability in an innocuous-looking computer program or application. You're not alone. 80% of attacks slip right by the network scan. Pick up where network scanners drop of with<em class="text-dark-green font-weight-bold"> Assured Scan DKV.</em></p>	
+								<button type="button" class="btn btn-cta"><span>Learn More</span> <i class="material-icons">arrow_forward</i>
+								</button>			
 							</div>
 						</div>
 					</div>
-
-					<ol class="carousel-indicators">
-						<li data-target="#custom_carousel" data-slide-to="0" class="active"></li>
-						<li data-target="#custom_carousel" data-slide-to="1"></li>
-						<li data-target="#custom_carousel" data-slide-to="2"></li>
-						<li data-target="#custom_carousel" data-slide-to="3"></li>
-						<li data-target="#custom_carousel" data-slide-to="4"></li>
-					</ol>
-
+					<div class="carousel-item">
+						<div class="row align-items-center">
+							<div class="col-lg-6">
+								<div class="img-container">
+									<img src="/wp-content/themes/aei/images/challenges_and_solutions_3.webp" class="img-fluid" alt="challenges and solutions" >
+								</div>
+							</div>
+							<div class="col-lg-6 text-sm-center">
+								<h6 class="font-weight-bold text-white">Regulatory Compliance Reporting</h6>
+								<p class="font-weight-light text-white">Complying with diverse and expanding regulatory requirements in an efficient, cost-effective way is not easy. Whether it’s HIPAA (PHI), GDPR (EU citizens personal data), PCI (cardholder data), or NERC-CIP (operational and systems data), regulatory requirements are focused on protecting data.</p>
+								<p class="font-weight-light text-white">We have developed a cost-effective way to file virtually any regulatory compliance cyber report with our personalized<em class="text-light-blue font-weight-bold"> Regulatory Compliance Dossier.</em></p>	
+								<button type="button" class="btn btn-cta"><span>Learn More</span> <i class="material-icons">arrow_forward</i>
+								</button>			
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="row align-items-center">
+							<div class="col-lg-6">
+								<div class="img-container">
+									<img src="/wp-content/themes/aei/images/challenges_and_solutions_4.webp" class="img-fluid" alt="challenges and solutions" >
+								</div>
+							</div>
+							<div class="col-lg-6 text-sm-center">
+								<h6 class="font-weight-bold text-white">Risk Visibility</h6>
+								<p class="font-weight-light text-white">One of the biggest challenges you can face is being concerned about your cybersecurity and not having a real picture of your cyber risk. This can lead to overspending, losing the fight for a cybersecurity budget, or worse, having misplaced efforts and still having a data breach.</p>
+								<p class="font-weight-light text-white">We developed the industries first truly comprehensive risk assessment vehicle. When you need to know your cyber risk exposure and what to do about it, you need<em class="text-red font-weight-bold"> TripleHelix.</em></p>	
+								<button type="button" class="btn btn-cta"><span>Learn More</span> <i class="material-icons">arrow_forward</i>
+								</button>			
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="row align-items-center">
+							<div class="col-lg-6">
+								<div class="img-container">
+									<img src="/wp-content/themes/aei/images/challenges_and_solutions_5.webp" class="img-fluid" alt="challenges and solutions" >
+								</div>
+							</div>
+							<div class="col-lg-6 text-sm-center">
+								<h6 class="font-weight-bold text-white">Virtual CISO & Cyber Education</h6>
+								<p class="font-weight-light text-white">Not every organization can support bringing on a Chief information security officer. Often the role of cybersecurity management falls to the CTO or DevOps team who desperately needs to be focused on making sure your business stays competitive. This is what hackers are counting on.</p>
+								<p class="font-weight-light text-white">To ease the burden on your IT department. Assured Enterprises can help train every employee in your company to become more threat aware and can operate as your<em class="text-purple font-weight-bold"> Virtual CISO.</em></p>	
+								<button type="button" class="btn btn-cta"><span>Learn More</span> <i class="material-icons">arrow_forward</i>
+								</button>			
+							</div>
+						</div>
+					</div>
 				</div>
+
+				<ol class="carousel-indicators">
+					<li data-target="#custom_carousel" data-slide-to="0" class="active"></li>
+					<li data-target="#custom_carousel" data-slide-to="1"></li>
+					<li data-target="#custom_carousel" data-slide-to="2"></li>
+					<li data-target="#custom_carousel" data-slide-to="3"></li>
+					<li data-target="#custom_carousel" data-slide-to="4"></li>
+				</ol>
 
 			</div>
 
 		</div>
-		<!-- End Carousel -->
-	<!-- </div> -->
+
+	</div>
+	<!-- End Carousel -->
+
+	<div class="hero-sea-blue">
+		<div class="container text-center" data-aos="fade-in" data-aos-easing="ease-in">
+			<p class="mb-1">The Ultimate Solution for</p>
+			<h2>Cyber Risk Management</h2>
+		</div>
+	</div>
+
+	<div class="cyber-store h-100 d-flex justify-content-center">
+		<div class="container">
+			<div class="row align-items-end">
+
+				<div class="col-md-8 offset-md-2 order-lg-2 col-lg-6 offset-lg-0" data-aos="fade-left" data-aos-duration="4000" data-aos-offset="400">
+					<img class="img-fluid" src="/wp-content/themes/aei/images/cyber_stored_desktop.webp" class="img-fluid" alt="challenges and solutions" >
+				</div>
+				<div class="col-md-12 col-lg-6" data-aos="fade-right" data-aos-duration="4000" data-aos-offset="200">
+					<h2 class="font-weight-light"><em class="font-weight-bold">CyberScore®:</em> The Only Security Score that Matters.</h2>
+					<p class="font-weight-light">What is CyberScore?</p>
+					<p class="font-weight-light">CyberScore is a three-digit cybersecurity beacon powered by our TripleHelix® platform that allows the management team to benchmark and evaluate security readiness. Your CyberScore is tied to hundreds of actionable data point your team can use to build effective information security programs. It also provides a common language for security practitioners and executives to speak about risk and allows organizations to set risk tolerance thresholds while easing the process of determining how much money to spend. </p>
+					<div class="d-block text-center">
+						<button type="button" class="btn btn-cta">Learn More Abbout TripleHelix® & CyberScore®</button>	
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
 
 </main>
 

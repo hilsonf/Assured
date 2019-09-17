@@ -3,35 +3,17 @@
 @import "./button";
 
 /* HERO */
-.hero.bg_white{
-	position: relative;
-	padding: 3.5rem 1rem;
-	background-color: #fff;
-	
-	h2{
-		font-size: 1.5rem;
-		font-weight: bold;
-	}
-
-	&:after {
-		@include hero-color($bg: #fff)
-	}
+.hero-white{
+	@include hero($bg: #fff)
+}
+.hero-grey{
+	@include hero($bg: $color-grey)
+}
+.hero-sea-blue{
+	@include hero($bg: $color-sea-blue)
 }
 
-.hero.bg_grey{
-	position: relative;
-	padding: 3.5rem 1rem;
-	background-color: $color-grey;
-	
-	h2{
-		font-size: 1.5rem;
-		font-weight: bold;
-	}
-
-	&:after {
-		@include hero-color($bg: $color-grey)
-	}
+.cyber-store{
+	padding: 5rem 0;
+	.btn-cta{ @include button-cta-secondary($fz: 14px, $cl: #414141) }
 }
-
-
-

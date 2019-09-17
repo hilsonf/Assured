@@ -12,7 +12,7 @@
 <body <?php body_class();?> >
 
 	<nav class="sticky-top">
-		<div class="navbar navbar-expand-lg navbar-dark bg_dark_dark">
+		<div class="navbar navbar-expand-lg bg_dark">
 			<div class="container">
 			<a href="/" class="navbar-brand"><img src="/wp-content/themes/aei/images/logo.webp" alt="logo" class="img-fluid"></a>
 
