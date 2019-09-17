@@ -1,3 +1,9 @@
+/*MIXINS*/
+@import "./colors";
+@import "./button";
+
+
+/* FADE ANIMATION FOR CAROUSEL*/
 .carousel-fade .carousel-item {
 	opacity: 0;
 	transition-duration: .8s;
@@ -31,4 +37,175 @@
 .carousel-fade  .active.carousel-item-prev {
 	transform: translateX(0);
 	transform: translate3d(0, 0, 0);
+}
+
+
+/* PARALLAX */
+.parallax{
+	background: 
+	linear-gradient(
+		rgba(0, 0, 0, 0.7), 
+		rgba(0, 0, 0, 0.7)
+		), url(../images/cyber-class.webp) no-repeat center center fixed;
+
+	display: table;
+	position: relative;
+	width: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	.slide {
+		width: 60%;
+		min-height: 52vh;
+		margin: auto;
+		position: relative;
+		overflow: hidden;
+		text-align: center;
+
+		.info{
+			width: 60%;
+			margin: auto;
+		}
+		.carousel-inner{
+			height: 100%;
+		}
+	}
+
+	.img-container{
+		width: 340px;
+		
+		img{
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+	.btn-cta{
+		width: 180px;
+	}
+
+	.action-btn{
+		margin: 2rem 0;
+	}
+
+	.carousel-item:nth-child(1){
+		.btn-cta{
+			@include button-cta($fz: 14px, $cl: $color-yellow);
+		}
+	}
+	.carousel-item:nth-child(2){
+		.btn-cta{
+			@include button-cta($fz: 14px, $cl: $color-light-blue);
+		}
+	}
+	.carousel-item:nth-child(3){
+		.btn-cta{
+			@include button-cta($fz: 14px, $cl: $color-lime-green);
+		}
+	}
+}
+
+
+/*CUSTOM CAROUSEL*/
+#custom_carousel {
+	a{
+		.img-color {
+			opacity: 0;
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: 1;
+		}
+		&:hover{
+
+			.img-color {
+				opacity: 1;
+				transition: opacity .4s ease, transform .4s ease;
+			}
+			.img-plain{
+				opacity: 0;
+				transition: opacity .4s ease, transform .4s ease;
+			}
+		} 
+	}
+
+	li .img-container{
+		position: relative;
+		width: 100px;
+		margin: auto;
+	}
+	li:nth-child(3){
+		.img-container{
+		    width: 150px;
+		}
+	}
+	li:nth-child(4), li:nth-child(5){
+		.img-container{
+		    width: 80px;
+		}
+	}
+	.controls li {
+		position: relative;
+		padding-right: 1.5rem;
+		padding-left: 1.5rem;
+	}
+	.controls li.active{
+		.img-color {
+			opacity: 1;
+			transition: opacity .4s ease, transform .4s ease;
+		}
+		.img-plain{
+			opacity: 0;
+			transition: opacity .4s ease, transform .4s ease;
+		}
+		&:after {
+			content: "";
+			position: absolute;
+			z-index: 1;
+			top: 100%;
+			width: 0;
+			height: 0;
+			border-bottom: 30px solid #303030;
+			border-left: 65px solid transparent;
+			border-right: 65px solid transparent;
+		}
+	}
+	.pannel{
+		.img-container{
+			width: 400px;
+			float: right;
+		}
+		.btn-cta{
+			float: right;
+			margin-top: 3rem;
+			width: 180px;
+		}
+		.carousel-item:nth-child(1){
+			.btn-cta{
+				@include button-cta($fz: 14px, $cl: $color-lime-green);
+			}
+		}
+		.carousel-item:nth-child(2){
+			.btn-cta{
+				@include button-cta($fz: 14px, $cl: $color-dark-green);
+			}
+		}
+		.carousel-item:nth-child(3){
+			.btn-cta{
+				@include button-cta($fz: 14px, $cl: $color-light-blue);
+			}
+		}
+		.carousel-item:nth-child(4){
+			.btn-cta{
+				@include button-cta($fz: 14px, $cl: $color-red);
+			}
+		}
+		.carousel-item:nth-child(5){
+			.btn-cta{
+				@include button-cta($fz: 14px, $cl: $color-purple);
+			}
+		}
+	}
 }

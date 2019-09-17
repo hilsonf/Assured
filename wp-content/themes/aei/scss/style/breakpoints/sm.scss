@@ -1,13 +1,20 @@
 /*Small devices (landscape phones, less than 768px)*/
-@media (max-width: 767.98px) { 
+@media (max-width: 767.98px) {
+
+ 	/*Helpers*/
+	.text-sm-center{
+		text-align: center !important;
+	}
+
+	/*Carousel*/
 	.parallax { 
 		.slide{ 
 			width: 100%; 
-			.info{ height: 145px }
-			.img-container{ width: 100%; }
+			.info{ height: auto }
 		}
-		.carousel-item:nth-child(1) .btn-cta, 
-		.carousel-item:nth-child(2) .btn-cta, 
-		.carousel-item:nth-child(3) .btn-cta{ width: 160px;} 
+		.btn-cta{width: 130px} 
 	}
+
+	/*Carousel*/
+	#custom_carousel .pannel .btn-cta{ width: 170px; }
 }

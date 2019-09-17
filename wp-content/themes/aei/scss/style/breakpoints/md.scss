@@ -1,6 +1,12 @@
 /*Medium devices (tablets, less than 992px)*/
 @media (max-width: 991.98px) { 
 
+	/*Helpers*/
+	.w-md-100{
+		width: 100% !important;
+	}
+
+	/*Navbar*/
 	.navbar {
 		padding: 1.2rem 1rem;
 		.navbar-brand{
@@ -10,7 +16,25 @@
 	}
 	.menu-icon{top: 10px;}
 
+	/*Parallax*/
 	.parallax .slide {
 		width: 75%;
 	}
+	
+	/*Carousel*/
+	#custom_carousel .pannel .img-container{
+		float: none;
+		margin: auto;
+		width: 100%;
+	}
+	#custom_carousel .pannel .btn-cta{
+		float: none;
+		margin: 1rem 0;
+	}
+
+	/*Jumbotron Top*/
+	.jumbotron_top .header-info{
+		margin-bottom: 0px;
+	}
+
  }

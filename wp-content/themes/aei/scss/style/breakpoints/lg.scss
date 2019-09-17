@@ -1,6 +1,11 @@
 /*Large devices (desktops, less than 1200px)*/
 @media (max-width: 1199.98px) { 
-
+    /*Helpers*/
+	.w-lg-75{
+		width: 75% !important;
+	}
+	
+	/*Parallax*/
 	.parallax {
 		.slide .info{
 			width: 85%;

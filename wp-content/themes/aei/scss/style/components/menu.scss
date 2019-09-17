@@ -33,7 +33,7 @@ $transition--length: .8;
 	}
 }
 
-.nav{
+.mobile__nav{
 	$width: 100vw;
 	$height: 100vh;
 	$font--size--calc: calc(2vw + 10px);
@@ -106,7 +106,7 @@ $transition--length: .8;
 }
 
 /* active state */
-body.nav-active{
+body.mobile__nav-active{
 	$menu--items--count: 4;
 	.menu-icon{
 		&__line{
@@ -120,7 +120,7 @@ body.nav-active{
 			transform: translateX(-2px) rotate(45deg);
 		}
 	}
-	.nav{
+	.mobile__nav{
 		visibility:visible;
 		&:before,&:after{
 			transform: translateX(0%) translateY(0%);
