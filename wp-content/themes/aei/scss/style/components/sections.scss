@@ -2,6 +2,63 @@
 @import "./colors";
 @import "./button";
 
+/* HEADER*/
+header {
+	position: relative;
+	background-color: black;
+	min-height: 25rem;
+	width: 100%;
+	overflow: hidden;
+	video {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		min-width: 100%;
+		min-height: 100%;
+		width: auto;
+		height: auto;
+		z-index: 0;
+		-ms-transform: translateX(-50%) translateY(-50%);
+		-moz-transform: translateX(-50%) translateY(-50%);
+		-webkit-transform: translateX(-50%) translateY(-50%);
+		transform: translateX(-50%) translateY(-50%);
+	}
+	.container {
+		position: relative;
+		z-index: 2;
+	}
+	.overlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		background-color: $color-light-blue;
+		opacity: 0.6;
+		z-index: 1;
+	}
+
+	h1{
+		font-size: 3.5rem;
+	}
+
+	.header-info{ margin: 5rem 0; }
+
+	.item{		
+
+		&:nth-child(2){
+			.img-container{ width: 130px; margin: auto; }
+		}
+		&:nth-child(3){
+			.img-container{ width: calc(130px + 70px); margin: auto;}
+		}
+		&:nth-child(4){
+			.img-container{ width: calc(130px + -26px); margin: auto;}
+		}
+
+	}
+}
+
 /* HERO */
 .hero-white{
 	@include hero($bg: #fff, $font-color: $color-dark)

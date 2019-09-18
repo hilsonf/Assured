@@ -5,37 +5,45 @@
 <?php get_template_part('./partials/header'); ?>
 
 <main>
-	<div class="jumbotron jumbotron-fluid jumbotron_top pb-1 mb-0">
-		<div class="container">
-			<div class="row header-info">
-				<div class="col lg-12 md-12 sm-12 text-center">
-					<h1 class="display-4 text-white">Cyber Risk Management</h1>
-					<h2 class="text-center text-white mt-5">Protecting Your Data & Your Reputation</h2>
+
+	<header>
+		<div class="overlay"></div>
+		<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+			<source src="wp-content/themes/aei/videos/home-bg-vid.mp4" type="video/mp4" />
+		</video>
+		<div class="container h-100">
+			<div class="d-flex h-100 text-center align-items-center">
+
+				<div class="row align-items-end">
+					<div class="col-lg-12 col-md-12 col-sm-12 text-center header-info">
+						<h1 class="text-white font-weight-light">Cyber Risk Management</h1>
+						<h4 class="text-center text-white mt-4 font-weight-light">Protecting Your Data & Your Reputation</h4>
+					</div>
+
+					<div class="col-lg-4 col-md-4 col-sm-12 text-center item" data-aos="fade-in" data-aos-delay="2000" data-aos-easing="ease-in">
+
+						<p class="text-white">Cyber Risk Assessments</p>
+						<div class="img-container">
+							<img src="/wp-content/themes/aei/images/web-assessment-desktop.webp" class="img-fluid" alt="web-assessment-desktop">
+						</div>
+					</div> 
+					<div class="col lg-4 col-md-4 col-sm-12 text-center item" data-aos="fade-in" data-aos-delay="2500" data-aos-easing="ease-in">
+						<p class="text-white">Cyber Risk Beacon</p>
+						<div class="img-container">
+							<img src="/wp-content/themes/aei/images/web-assessment-gauge.webp" class="img-fluid" alt="web-assessment-gauge">
+						</div>
+					</div> 
+					<div class="col-lg-4 col-md-4 col-sm-12 text-center item" data-aos="fade-in" data-aos-delay="3000" data-aos-easing="ease-in">
+						<p class="text-white">Cyber Maturity Road Map</p>
+						<div class="img-container">
+							<img src="/wp-content/themes/aei/images/web-assessment-road-map.webp" class="img-fluid" alt="web-assessment-road-map">
+						</div>
+					</div> 
 				</div>
-			</div>
-			<div class="row align-items-end">
-				<div class="col-lg-4 col-md-4 col-sm-12 text-center jumbotron_outer" data-aos="fade-in" data-aos-delay="2000" data-aos-easing="ease-in">
-									
-					<p class="text-white">Cyber Risk Assessments</p>
-					<div class="jumbotron_inner">
-						<img src="/wp-content/themes/aei/images/web-assessment-desktop.webp" class="img-fluid" alt="web-assessment-desktop">
-					</div>
-				</div> 
-				<div class="col lg-4 col-md-4 col-sm-12 text-center jumbotron_outer" data-aos="fade-in" data-aos-delay="2500" data-aos-easing="ease-in">
-					<p class="text-white">Cyber Risk Beacon</p>
-					<div class="jumbotron_inner">
-						<img src="/wp-content/themes/aei/images/web-assessment-gauge.webp" class="img-fluid" alt="web-assessment-gauge">
-					</div>
-				</div> 
-				<div class="col-lg-4 col-md-4 col-sm-12 text-center jumbotron_outer" data-aos="fade-in" data-aos-delay="3000" data-aos-easing="ease-in">
-					<p class="text-white">Cyber Maturity Road Map</p>
-					<div class="jumbotron_inner">
-						<img src="/wp-content/themes/aei/images/web-assessment-road-map.webp" class="img-fluid" alt="web-assessment-road-map">
-					</div>
-				</div> 
+
 			</div>
 		</div>
-	</div>
+	</header>
 
 	<div class="hero-white">
 		<div class="container text-center" data-aos="fade-in" data-aos-delay="3000" data-aos-easing="ease-in">

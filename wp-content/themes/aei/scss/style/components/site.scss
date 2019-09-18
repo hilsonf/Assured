@@ -22,29 +22,6 @@ footer{
 	margin: auto;
 }
 
-.jumbotron_top{
-	background: url(../images/hero_bg1.webp) center center / cover no-repeat;
-
-	h2{ font-weight: lighter; }
-	.header-info{ margin-bottom: 5rem; }
-
-	.jumbotron_outer{		
-		margin: auto;
-
-		&:nth-child(1){
-			.jumbotron_inner{ width: 130px; margin: auto; }
-		}
-		&:nth-child(2){
-			.jumbotron_inner{ width: calc(130px + 70px); margin: auto;}
-		}
-		&:nth-child(3){
-			.jumbotron_inner{ width: calc(130px + -26px); margin: auto;}
-		}
-
-	}
-}
-
-
 .navbar{
 	.container{
 		position: relative;
