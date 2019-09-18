@@ -40,7 +40,7 @@
 	<div class="hero-white">
 		<div class="container text-center" data-aos="fade-in" data-aos-delay="3000" data-aos-easing="ease-in">
 			<h2> The Assure Difference:</h2>
-			<p>A Program Shift in Cyber Security & Cyber Risk Management</p>
+			<p class="mb-1">A Program Shift in Cyber Security & Cyber Risk Management</p>
 		</div>
 	</div>
 
@@ -63,10 +63,10 @@
 						<p class="text-white font-weight-light">There are a-million-and-one network scanners on the market. None of which uncover vulnerabilities living in your software. <em class="text-yellow font-weight-bold">We scan your programs at a binary level </em> to expose hidden bugs in your software, without ever needing to see your sensitive data.</p>
 					</div>
 					<div class="action-btn">
-						<button type="button" class="btn btn-cta"><span>Buy Now</span> <i class="material-icons">shopping_cart</i>
-						</button>
-						<button type="button" class="btn btn-cta"><span>Learn More</span> <i class="material-icons">arrow_forward</i>
-						</button>
+						<a href="#" role="button" class="btn btn-cta"><span>Buy Now</span> <i class="material-icons">shopping_cart</i>
+						</a>
+						<a href="#" role="button" class="btn btn-cta"><span>Learn More</span> <i class="material-icons">arrow_forward</i>
+						</a>
 					</div>
 				</div>
 				<div class="carousel-item my-4">
@@ -78,10 +78,10 @@
 						<p class="text-white font-weight-light">We don't check off boxes based on general industry data. Our risk <em class="text-light-blue font-weight-bold">assessments are specific to your organization </em>, from data infrastrucure size and marketplace, to threat type and severity.</p>
 					</div>
 					<div class="action-btn">
-						<button type="button" class="btn btn-cta">Buy Now <i class="material-icons">shopping_cart</i>
-						</button>
-						<button type="button" class="btn btn-cta">Learn More <i class="material-icons">arrow_forward</i>
-						</button>
+						<a href="#" role="button" class="btn btn-cta">Buy Now <i class="material-icons">shopping_cart</i>
+						</a>
+						<a href="#" role="button" class="btn btn-cta">Learn More <i class="material-icons">arrow_forward</i>
+						</a>
 					</div>
 				</div>
 				<div class="carousel-item my-4">
@@ -93,10 +93,10 @@
 						<p class="text-white font-weight-light">Why trust a cyber risk estimate that is only based on the size of your company?  Our cyber scores are unique to you and paired with <em class="text-lime-green font-weight-bold">customized road maps</em> to help you bolster your cyber risk posture and cost-effectively increase your score.</p>
 					</div>
 					<div class="action-btn">
-						<button type="button" class="btn btn-cta">Buy Now <i class="material-icons">shopping_cart</i>
-						</button>
-						<button type="button" class="btn btn-cta">Learn More <i class="material-icons">arrow_forward</i>
-						</button>
+						<a href="#" role="button" class="btn btn-cta">Buy Now <i class="material-icons">shopping_cart</i>
+						</a>
+						<a href="#" role="button" class="btn btn-cta">Learn More <i class="material-icons">arrow_forward</i>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -190,8 +190,8 @@
 								<h6 class="font-weight-bold text-white">IT Resource Planning</h6>
 								<p class="font-weight-light text-white">There is an ongoing struggle for resources between Development, DevOps, Marketing, and InfoSec. Unfortunately, security is often seen as non-revenue generating and loses priority battles.</p>
 								<p class="font-weight-light text-white">Our platform provides you with data about your risk posture and a detailed plan on how to most efficiently target significant portions of your cyber risk. Be the hero your company needs with our<em class="text-lime-green font-weight-bold"> Cyber Security Roadmap.</em></p>	
-								<button type="button" class="btn btn-cta"><span>Learn More</span> <i class="material-icons">arrow_forward</i>
-								</button>			
+								<a href="#" role="button" class="btn btn-cta"><span>Learn More</span> <i class="material-icons">arrow_forward</i>
+								</a>			
 							</div>
 						</div>
 
@@ -207,8 +207,8 @@
 								<h6 class="font-weight-bold text-white">Uncovering Vulnerabilities</h6>
 								<p class="font-weight-light text-white">Your firewall is up, your network is scanned every 2 AM, you even have threat hunters working to keep you safe. All of a sudden, your files are locked and you don't know why.</p>
 								<p class="font-weight-light text-white">Odds are, someone exploited a vulnerability in an innocuous-looking computer program or application. You're not alone. 80% of attacks slip right by the network scan. Pick up where network scanners drop of with<em class="text-dark-green font-weight-bold"> Assured Scan DKV.</em></p>	
-								<button type="button" class="btn btn-cta"><span>Learn More</span> <i class="material-icons">arrow_forward</i>
-								</button>			
+								<a href="#" role="button" class="btn btn-cta"><span>Learn More</span> <i class="material-icons">arrow_forward</i>
+								</a>			
 							</div>
 						</div>
 					</div>
@@ -223,8 +223,8 @@
 								<h6 class="font-weight-bold text-white">Regulatory Compliance Reporting</h6>
 								<p class="font-weight-light text-white">Complying with diverse and expanding regulatory requirements in an efficient, cost-effective way is not easy. Whether it’s HIPAA (PHI), GDPR (EU citizens personal data), PCI (cardholder data), or NERC-CIP (operational and systems data), regulatory requirements are focused on protecting data.</p>
 								<p class="font-weight-light text-white">We have developed a cost-effective way to file virtually any regulatory compliance cyber report with our personalized<em class="text-light-blue font-weight-bold"> Regulatory Compliance Dossier.</em></p>	
-								<button type="button" class="btn btn-cta"><span>Learn More</span> <i class="material-icons">arrow_forward</i>
-								</button>			
+								<a href="#" role="button" class="btn btn-cta"><span>Learn More</span> <i class="material-icons">arrow_forward</i>
+								</a>			
 							</div>
 						</div>
 					</div>
@@ -239,8 +239,8 @@
 								<h6 class="font-weight-bold text-white">Risk Visibility</h6>
 								<p class="font-weight-light text-white">One of the biggest challenges you can face is being concerned about your cybersecurity and not having a real picture of your cyber risk. This can lead to overspending, losing the fight for a cybersecurity budget, or worse, having misplaced efforts and still having a data breach.</p>
 								<p class="font-weight-light text-white">We developed the industries first truly comprehensive risk assessment vehicle. When you need to know your cyber risk exposure and what to do about it, you need<em class="text-red font-weight-bold"> TripleHelix.</em></p>	
-								<button type="button" class="btn btn-cta"><span>Learn More</span> <i class="material-icons">arrow_forward</i>
-								</button>			
+								<a href="#" role="button" class="btn btn-cta"><span>Learn More</span> <i class="material-icons">arrow_forward</i>
+								</a>			
 							</div>
 						</div>
 					</div>
@@ -255,8 +255,8 @@
 								<h6 class="font-weight-bold text-white">Virtual CISO & Cyber Education</h6>
 								<p class="font-weight-light text-white">Not every organization can support bringing on a Chief information security officer. Often the role of cybersecurity management falls to the CTO or DevOps team who desperately needs to be focused on making sure your business stays competitive. This is what hackers are counting on.</p>
 								<p class="font-weight-light text-white">To ease the burden on your IT department. Assured Enterprises can help train every employee in your company to become more threat aware and can operate as your<em class="text-purple font-weight-bold"> Virtual CISO.</em></p>	
-								<button type="button" class="btn btn-cta"><span>Learn More</span> <i class="material-icons">arrow_forward</i>
-								</button>			
+								<a href="#" role="button" class="btn btn-cta"><span>Learn More</span> <i class="material-icons">arrow_forward</i>
+								</a>			
 							</div>
 						</div>
 					</div>
@@ -288,18 +288,62 @@
 		<div class="container">
 			<div class="row align-items-end">
 
-				<div class="col-md-8 offset-md-2 order-lg-2 col-lg-6 offset-lg-0" data-aos="fade-left" data-aos-duration="4000" data-aos-offset="400">
+				<div class="col-md-8 offset-md-2 order-lg-2 col-lg-6 offset-lg-0" data-aos="fade-left" data-aos-duration="4000" data-aos-offset="500" data-aos-easing="ease-in">
 					<img class="img-fluid" src="/wp-content/themes/aei/images/cyber_stored_desktop.webp" class="img-fluid" alt="challenges and solutions" >
 				</div>
-				<div class="col-md-12 col-lg-6" data-aos="fade-right" data-aos-duration="4000" data-aos-offset="200">
+				<div class="col-md-12 col-lg-6" data-aos="fade-right" data-aos-duration="4000" data-aos-offset="300" data-aos-easing="ease-in">
 					<h2 class="font-weight-light"><em class="font-weight-bold">CyberScore®:</em> The Only Security Score that Matters.</h2>
 					<p class="font-weight-light">What is CyberScore?</p>
 					<p class="font-weight-light">CyberScore is a three-digit cybersecurity beacon powered by our TripleHelix® platform that allows the management team to benchmark and evaluate security readiness. Your CyberScore is tied to hundreds of actionable data point your team can use to build effective information security programs. It also provides a common language for security practitioners and executives to speak about risk and allows organizations to set risk tolerance thresholds while easing the process of determining how much money to spend. </p>
 					<div class="d-block text-center">
-						<button type="button" class="btn btn-cta">Learn More Abbout TripleHelix® & CyberScore®</button>	
+						<a href="#" role="button" class="btn btn-cta">Learn More Abbout TripleHelix® & CyberScore®</a>	
 					</div>
 				</div>
 
+			</div>
+		</div>
+	</div>
+
+	<div class="hero-dark">
+		<div class="container text-center">
+			<h2>What's New at Assured Enterprises</h2>
+			<p class="mb-1">Post, Articles, & Thoughts from the CEO</p>
+		</div>
+	</div>
+
+	<div id="article" class="bg_dark_dark py-5">
+		<div class="container" data-aos="fade-up" data-aos-duration="4000" data-aos-offset="300" data-aos-easing="ease-in">
+			<div class="row">
+				<div class="col-lg-4 my-2">
+					<div class="card">
+						<img src="//placehold.it/1200x600/444" class="card-img-top" alt="img">
+						<div class="card-body">
+							<h5 class="card-title font-weight-bold">Special title treatment</h5>
+							<p class="font-weight-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							<a href="#" role="button" class="btn">Go somewhere</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 my-2">
+					<div class="card">
+						<img src="//placehold.it/1200x600/ccff00" class="card-img-top" alt="img">
+						<div class="card-body">
+							<h5 class="card-title font-weight-bold">Special title treatment</h5>
+							<p class="font-weight-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							<a href="#" role="button" class="btn">Go somewhere</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 my-2">
+					<div class="card">
+						<img src="//placehold.it/1200x600/444" class="card-img-top" alt="img">
+						<div class="card-body">
+							<h5 class="card-title font-weight-bold">Special title treatment</h5>
+							<p class="font-weight-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							<a href="#" role="button" class="btn">Go somewhere</a>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>

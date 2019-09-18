@@ -4,16 +4,29 @@
 
 /* HERO */
 .hero-white{
-	@include hero($bg: #fff)
+	@include hero($bg: #fff, $font-color: $color-dark)
 }
 .hero-grey{
-	@include hero($bg: $color-grey)
+	@include hero($bg: $color-grey, $font-color: $color-dark)
 }
 .hero-sea-blue{
-	@include hero($bg: $color-sea-blue)
+	@include hero($bg: $color-sea-blue, $font-color: $color-dark)
 }
-
 .cyber-store{
 	padding: 5rem 0;
 	.btn-cta{ @include button-cta-secondary($fz: 14px, $cl: #414141) }
+}
+.hero-dark{
+	@include hero($bg: $color-nav_shade_dark, $font-color: #fff)
+}
+
+#article{
+	.card{
+		border: none;
+		border-radius: 0px; 
+		.card-img-top{
+			border-radius: 0 !important;
+		}
+	}
+	.btn{ @include button-cta-secondary($fz: 14px, $cl: #414141) width: 160px; }
 }

@@ -44,8 +44,8 @@
 .parallax{
 	background: 
 	linear-gradient(
-		rgba(0, 0, 0, 0.7), 
-		rgba(0, 0, 0, 0.7)
+		rgba(31, 31, 31, 0.9), 
+		rgba(31, 31, 31, 0.9)
 		), url(../images/cyber-class.webp) no-repeat center center fixed;
 
 	display: table;
@@ -164,7 +164,7 @@
 			content: "";
 			position: absolute;
 			z-index: 1;
-			top: 100%;
+			bottom: -35px;
 			width: 0;
 			height: 0;
 			border-bottom: 30px solid $color-dark;

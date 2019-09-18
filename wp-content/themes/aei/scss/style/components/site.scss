@@ -32,13 +32,13 @@ footer{
 		margin: auto;
 
 		&:nth-child(1){
-			.jumbotron_inner{ width: 150px; margin: auto; }
+			.jumbotron_inner{ width: 130px; margin: auto; }
 		}
 		&:nth-child(2){
-			.jumbotron_inner{ width: calc(150px + 82px); margin: auto;}
+			.jumbotron_inner{ width: calc(130px + 70px); margin: auto;}
 		}
 		&:nth-child(3){
-			.jumbotron_inner{ width: calc(150px + -30px); margin: auto;}
+			.jumbotron_inner{ width: calc(130px + -26px); margin: auto;}
 		}
 
 	}
